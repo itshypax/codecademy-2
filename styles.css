@@ -1,0 +1,49 @@
+/*! Import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Source+Code+Pro&family=Source+Sans+Pro&display=swap');
+
+/*! Begin code */
+
+/* Headers centered */
+h1, h2 {
+    text-align: center;
+}
+
+/* Tables centered */
+table {
+    margin: 0 auto;
+}
+
+/* Basic font usage */
+h1 {
+    font-family: Neonderthaw;
+    color: deeppink;
+    text-shadow: 1px 1px 12px deeppink;
+}
+
+body {
+    font-family: "Source Sans Pro";
+}
+
+/* Table styling */
+thead>tr>th {
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+}
+
+table {
+    border: 3px solid aliceblue;
+}
+
+/* Code Table */
+
+.code {
+    font-family: "Source Code Pro";
+    font-size: 12px;
+    background-color: ghostwhite;
+    outline: 1px solid gainsboro;
+}
+
+.centered {
+    text-align: center;
+}
